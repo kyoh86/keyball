@@ -62,7 +62,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [3] = LAYOUT_universal(
     TO(1)   , KC_NO   , KC_NO   , KC_NO    , KC_NO    , KC_NO   ,                                 KC_NO    , KC_NO    , KC_NO , KC_NO , KC_NO   , KC_NO   ,
     TO(2)   , KC_NO   , KC_UP   , KC_NO    , KC_NO    , KC_NO   ,                                 KC_NO    , KC_NO    , KC_NO , KC_NO , KC_NO   , KC_NO   ,
-    KC_LALT , KC_LEFT , KC_DOWN , KC_RIGHT , KC_NO    , KC_NO   ,                                 KC_NO    , KC_NO    , KC_NO , KC_NO , KC_NO   , KC_LALT ,
+    KC_LALT , KC_LEFT , KC_DOWN , KC_RIGHT , KC_NO    , KC_ENT  ,                                 KC_NO    , KC_NO    , KC_NO , KC_NO , KC_NO   , KC_LALT ,
     KC_LSFT , KC_NO   , CPI_D1K , CPI_D100 , CPI_I100 , CPI_I1K , KBC_SAVE ,            KBC_RST , SCRL_DVI , SCRL_DVD , KC_NO , KC_NO , KC_NO   , KC_LSFT ,
     TO(0)   , KC_LGUI , KC_NO   , KC_NO    , KC_NO    , KC_NO   , KC_NO    ,            KC_NO   , KC_NO    , KC_NO    , KC_NO , KC_NO , KC_LGUI , KC_NO
   ),
